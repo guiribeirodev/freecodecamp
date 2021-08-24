@@ -4,4 +4,4 @@
 
 ## !!!!!
 
-Arquivos referente aos exercícios do <a href="https://www.freecodecamp.org/">freeCodeCamp</a>
+Arquivos referente aos exercícios do <a href="https://www.freecodecamp.org/" target="blank">freeCodeCamp</a>.
