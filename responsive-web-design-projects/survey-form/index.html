@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Pesquisa</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <h1 id="title">Formulário de Gostos Pessoais!</h1>
+      <p id="description">
+        Este formulário têm como motivação apenas diversão sobre gostos
+        pessoais.
+      </p>
+
+      <form action="#" id="survey-form">
+        <div class="primary-information">
+          <label for="name" id="name-label">Nome:</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Digite seu nome:"
+            required
+          />
+
+          <label for="email" id="email-label">Email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Digite seu email:"
+            required
+          />
+
+          <label for="number" id="number-label">Número:</label>
+          <input
+            type="number"
+            id="number"
+            placeholder="Digite seu número favorito entre 0 e 100:"
+            min="0"
+            max="100"
+          />
+
+          <p>Qual sua cor primária favorita</p>
+          <select name="color" id="dropdown">
+            <option value="blue">Azul</option>
+            <option value="red">Vermelho</option>
+            <option value="yellow">Amarelo</option>
+          </select>
+        </div>
+        <p>Prefere branco ou preto?</p>
+        <label>
+          <input name="black-white" type="radio" value="white" />Branco</label
+        >
+        <label>
+          <input name="black-white" type="radio" value="black" />Preto</label
+        >
+
+        <p>O que você mais gosta de ver?</p>
+        <label>
+          <input type="checkbox" value="videos" />
+          videos
+        </label>
+        <label>
+          <input type="checkbox" value="movies" />
+          Filmes
+        </label>
+        <label>
+          <input type="checkbox" value="animes" />
+          Animes
+        </label>
+
+        <p>Sugestão</p>
+        <textarea
+          name="suggestion"
+          placeholder="Digite alguma sugestão"
+        ></textarea>
+
+        <button type="submit" id="submit"></button>
+      </form>
+    </div>
+  </body>
+</html>
