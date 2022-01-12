@@ -10,14 +10,16 @@
 
   <body>
     <div id="container">
-      <h1 id="title">Formulário de Gostos Pessoais!</h1>
-      <p id="description">
-        Este formulário têm como motivação apenas diversão sobre gostos
-        pessoais.
-      </p>
+      <header>
+        <h1 id="title">Formulário de Gostos Pessoais!</h1>
+        <p id="description">
+          Este formulário têm como motivação apenas diversão sobre gostos
+          pessoais.
+        </p>
+      </header>
 
       <form action="#" id="survey-form">
-        <div class="primary-information">
+        <div class="primary first">
           <label for="name" id="name-label">Nome:</label>
           <input
             type="text"
@@ -43,42 +45,48 @@
             max="100"
           />
 
-          <p>Qual sua cor primária favorita</p>
+          <p>Qual sua cor primária favorita?</p>
           <select name="color" id="dropdown">
             <option value="blue">Azul</option>
             <option value="red">Vermelho</option>
             <option value="yellow">Amarelo</option>
           </select>
         </div>
-        <p>Prefere branco ou preto?</p>
-        <label>
-          <input name="black-white" type="radio" value="white" />Branco</label
-        >
-        <label>
-          <input name="black-white" type="radio" value="black" />Preto</label
-        >
 
-        <p>O que você mais gosta de ver?</p>
-        <label>
-          <input type="checkbox" value="videos" />
-          videos
-        </label>
-        <label>
-          <input type="checkbox" value="movies" />
-          Filmes
-        </label>
-        <label>
-          <input type="checkbox" value="animes" />
-          Animes
-        </label>
+        <div class="primary">
+          <p>Prefere branco ou preto?</p>
 
-        <p>Sugestão</p>
-        <textarea
-          name="suggestion"
-          placeholder="Digite alguma sugestão"
-        ></textarea>
+          <label>
+            <input name="black-white" type="radio" value="white" />Branco</label
+          >
+          <label>
+            <input name="black-white" type="radio" value="black" />Preto</label
+          >
+        </div>
+        <div class="primary">
+          <p>O que você mais gosta de ver?</p>
+          <label>
+            <input type="checkbox" value="videos" />
+            videos
+          </label>
+          <label>
+            <input type="checkbox" value="movies" />
+            Filmes
+          </label>
+          <label>
+            <input type="checkbox" value="animes" />
+            Animes
+          </label>
+        </div>
+        <div class="primary">
+          <p>Sugestão</p>
+          <textarea
+            name="suggestion"
+            placeholder="Digite alguma sugestão"
+          ></textarea>
 
-        <button type="submit" id="submit"></button>
+          <button type="submit" id="submit">Enviar sugestão</button>
+        </div>
       </form>
     </div>
   </body>

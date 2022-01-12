@@ -1,19 +1,28 @@
 body {
-  background-color: black;
+  background-color: #111;
   font-size: 10px;
+}
+
+header {
+  background-color: #141920;
+  margin-bottom: 2rem;
 }
 
 h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3.2rem;
+  color: #b4b4b4;
 }
 
 p {
   font-size: 1.4rem;
+  color: white;
 }
 
 #description {
   text-align: center;
+  font-size: 1.6rem;
+  color: #ccc;
 }
 
 #container {
@@ -25,10 +34,11 @@ p {
 
   width: 65rem;
 
-  background-color: white;
+  background-color: #111;
+  color: white;
 }
 
-.primary-information {
+.primary {
   display: flex;
   flex-direction: column;
 
@@ -37,11 +47,39 @@ p {
   width: 40rem;
 }
 
-.primary-information label {
+.primary label {
   font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
 
-.primary-information input {
+.primary input {
+  margin-bottom: 1rem;
+}
+
+.primary select {
+  height: 2rem;
+}
+
+.primary.first input {
   margin-bottom: 1rem;
   height: 2rem;
+}
+
+#secondary {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+
+  width: 40rem;
+}
+
+#submit {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 45%;
+  height: 2rem;
+  background-color: #141920;
+  color: white;
+  border: 1px solid white;
 }
