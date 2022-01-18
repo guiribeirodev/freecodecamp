@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
   </head>
   <body>
@@ -111,11 +112,12 @@
           utilizá-la gerará um erro:
         </p>
 
-        <!-- <code>>>> n  # try to access an undefined variable
+        <code>
+          >>> n  # try to access an undefined variable
           Traceback (most recent call last):
             ile "<stdin>", line 1, in <module>
           NameError: name 'n' is not defined
-        </code> -->
+        </code>
 
         <p>
           Há suporte completo para ponto flutuante (float); operadores com
@@ -253,7 +255,7 @@
         </p>
 
         <code>
-          <!-- >>> prefix = 'Py'
+          >>> prefix = 'Py'
 >>> prefix 'thon'  # can't concatenate a variable and a string literal
   File "<stdin>", line 1
     prefix 'thon'
@@ -360,10 +362,10 @@ SyntaxError: invalid syntax -->
         </p>
 
         <code>
-          <!-- >>> word[42]  # the word only has 6 characters
+          >> word[42]  # the word only has 6 characters
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-IndexError: string index out of range -->
+IndexError: string index out of range
         </code>
 
         <p>
@@ -383,14 +385,14 @@ IndexError: string index out of range -->
         </p>
 
         <code>
-          <!-- >>> word[0] = 'J'
+          >>> word[0] = 'J'
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: 'str' object does not support item assignment
 >>> word[2:] = 'py'
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-TypeError: 'str' object does not support item assignment -->
+TypeError: 'str' object does not support item assignment
         </code>
 
         <p>Se você precisar de uma string diferente, deverá criar uma nova:</p>
@@ -522,7 +524,7 @@ TypeError: 'str' object does not support item assignment -->
             expressões do lado direito são avaliadas da esquerda para a direita.
           </li>
           <li>
-            <!-- O laço de repetição while executa enquanto a condição (aqui: a < 10)
+            O laço de repetição while executa enquanto a condição (aqui: a < 10)
             permanece verdadeira. Em Python, como em C, qualquer valor inteiro
             que não seja zero é considerado verdadeiro; zero é considerado
             falso. A condição pode também ser uma cadeia de caracteres ou uma
@@ -567,8 +569,8 @@ TypeError: 'str' object does not support item assignment -->
         </p>
 
         <code>
-          <!-- >>> a, b = 0, 1 >>> while a < 1000: ... print(a, end=',') ... a, b =
-          b, a+b ... 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987, -->
+          >>> a, b = 0, 1 >>> while a < 1000: ... print(a, end=',') ... a, b =
+          b, a+b ... 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987.
         </code>
       </section>
 
