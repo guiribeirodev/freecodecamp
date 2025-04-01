@@ -1,8 +1,17 @@
-<h1 align="center">freeCodeCamp</h1>
+# FreeCodeCamp - Design Web Responsivo
 
-<img src=".github/freecodecamp.png" alt="Imagem da tela de entrada do freecodecamp" align="center"/>
+![Imagem da tela de entrada do FreeCodeCamp](.github/freecodecamp.png)
 
+Arquivos referente aos exercícios do [freeCodeCamp](https://www.freecodecamp.org/).
 
-Arquivos referente aos exercícios do <a href="https://www.freecodecamp.org/" target="blank">freeCodeCamp</a>.
+## Sobre Este Repositório
 
-Inclui os projetos feitos para conclusão.
+Este repositório contém soluções e recursos para o caminho de certificação em Design Web Responsivo do FreeCodeCamp. Está organizado por seções do curso, fornecendo uma coleção abrangente dos fundamentos de desenvolvimento web.
+
+## Recursos Relacionados
+
+- [Site Oficial do FreeCodeCamp](https://www.freecodecamp.org/)
+  
+- [Curso em Design Web Responsivo](https://www.freecodecamp.org/learn/responsive-web-design/)
+  
+- [Minha Certificação 📜🏆](https://www.freecodecamp.org/certification/guiribeirodev/responsive-web-design)
